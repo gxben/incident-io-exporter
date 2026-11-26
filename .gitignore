@@ -1,0 +1,7 @@
+.claude/
+bin/
+dist/
+coverage.out
+coverage.txt
+*.tgz
+.apikey

@@ -1,0 +1,25 @@
+apiVersion: v2
+name: incident-io-exporter
+description: Prometheus exporter for incident.io — incidents, alerts, heartbeats, escalations, on-call, maintenance windows, follow-ups, teams and users
+type: application
+version: 0.1.0
+appVersion: "0.0.0"
+keywords:
+  - prometheus
+  - exporter
+  - incident.io
+  - incident
+  - oncall
+  - monitoring
+  - alerting
+home: https://github.com/gxben/incident-io-exporter
+sources:
+  - https://github.com/gxben/incident-io-exporter
+maintainers:
+  - name: Benjamin Zores
+    email: benjamin.zores@gmail.com
+annotations:
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/changes: |
+    - kind: added
+      description: Initial release
